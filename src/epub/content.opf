@@ -36,14 +36,15 @@
 		<dc:subject id="subject-2">Homiletical illustrations</dc:subject>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85061754</meta>
-		<meta property="schema:genre">TAG</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:genre">Spirituality</meta>
 		<meta property="schema:abstract">DESCRIPTION</meta>
 		<dc:description>
 			LONG_DESCRIPTION
 		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/42558</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://archive.org/details/artofillustratio00spur</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="EBOOK_WIKI_URL" rel="schema:sameAs"/>
@@ -52,30 +53,32 @@
 		<link href="https://github.com/standardebooks/c-h-spurgeon_the-art-of-illustration" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">C. H. Spurgeon</dc:creator>
 		<meta property="file-as" refines="#author">Spurgeon, C. H.</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<link href="https://en.wikipedia.org/wiki/C._H._Spurgeon" refines="#author" rel="schema:sameAs"/>
+		<meta property="schema:alternateName" refines="#author">Charles Haddon Spurgeon</meta>
+		<link href="https://en.wikipedia.org/wiki/Charles_Spurgeon" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n80023228.html" refines="#author" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<dc:contributor id="contributor">Wilbur B. Ketcham</dc:contributor>
+		<meta property="file-as" refines="#contributor">Ketcham, Wilbur B.</meta>
+		<meta property="role" refines="#contributor" scheme="marc:relators">wfw</meta>
+		<dc:contributor id="artist">Domenico Fetti</dc:contributor>
+		<meta property="file-as" refines="#artist">Fetti, Domenico</meta>
+		<link href="https://en.wikipedia.org/wiki/Domenico_Fetti" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr91043037.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-1">Carlos Colon</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Colon, Carlos</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
+		<dc:contributor id="transcriber-2">Princeton Theological Seminary Library</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Princeton Theological Seminary Library</meta>
+		<link href="https://ptsem.edu/library/" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="producer-1">Jonathan Erdman</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Erdman, Jonathan</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
