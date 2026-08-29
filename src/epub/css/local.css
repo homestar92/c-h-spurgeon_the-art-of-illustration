@@ -20,11 +20,6 @@
 	display: none;
 }
 
-[epub|type~="z3998:hymn"] p + p,
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
-}
-
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
@@ -44,14 +39,6 @@ footer{
 }
 
 [epub|type~="z3998:signature"]{
-	font-variant: small-caps;
-}
-
-[epub|type~="z3998:salutation"] + p{
-	text-indent: 0;
-}
-
-p[epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
 /* end Headers, Footers, and Letter elements */
